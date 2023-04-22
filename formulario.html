@@ -9,37 +9,38 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="letras.css">
 </head>
 
-<body>
+<body id="fondo">
 
   <!-- Encabezado de la página -->
-  <header id="encabezado">
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="#">Catálogo de Mangas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Mostrar menú de navegación">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu-principal">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio</a>
+  <!-- Navbar -->
+  <nav id="barra" class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="index.html"><img class="logo" src="img/tsudonkuLogo.png" alt="ml-auto"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mangas</a>
+                <a class="nav-link" href="catalogo.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de</a>
+                <a class="nav-link" href="formulario.html">Contacto</a>
             </li>
-          </ul>
-        </div>
-      </nav>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Carrito</a>
+            </li>
+        </ul>
     </div>
-  </header>
+</nav>
     <!-- Formulario -->
-    <section class="container">
+    <section  class="container">
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">

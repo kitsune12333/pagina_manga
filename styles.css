@@ -4,14 +4,29 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+    background-color: rgb(5, 3, 3);
   }
-  
+#fondo{
+  background-image: url("img/fondo.gif");
+    background-size: cover;
+    margin-top: 0;
+}
+
+  .logo{
+    margin-left: 1cm;
+    width: 35%;
+  }
+
+  #barra{
+    background-color: rgba(2, 1, 10, 0.795);
+  }
+
   a {
     color: #ff6600;
   }
   
   a:hover {
-    color: #cc5500;
+    color: #ffffff;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -34,9 +49,14 @@ body {
   
   /* Estilos específicos para la página de inicio */
   /* Encabezado */
+  .nav-link {
+    font-size: 25px;
+
+  }
+
   #encabezado {
     background-color: #ff6600;
-    padding: 20px 0;
+    padding: 20px;
   }
   
   #encabezado a {
@@ -59,9 +79,9 @@ body {
   
   /* Carrusel */
 
-  #carruselMenu{
-    margin-top: 20px;
-    
+  #CarruselMenu{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.877);
     
   }
 
@@ -112,7 +132,7 @@ body {
   
   /* Pie de página */
   #pie {
-    background-color: #f2f2f2;
+    background-color: #04011eb0;
     padding: 20px 0;
   }
   
