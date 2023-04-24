@@ -1,0 +1,54 @@
+.card{
+  max-width: 90%;
+  padding: 7%;
+  align-items: center;
+  background-image:url(img/fondo.gif);
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 10%;
+  height: 9cm;
+  position: relative;
+}
+
+
+
+h5{
+text-align: center;
+color: aliceblue;
+position: relative;
+}
+
+.Fondo_catalogo{
+  background-color: rgba(0, 11, 41, 0.875);
+  position: relative;
+}
+
+
+
+.btn{
+  background-color: rgba(0, 0, 255, 0.575);
+  padding: 1%;
+}
+h2{
+  padding-top: 2%;
+}
+
+#promocion-text{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-style: oblique;
+  color: bisque;
+}
+
+#luffyxikito{
+  max-width: 15%;
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+#chopperxikito{
+  max-width: 20%;
+  position: absolute;
+  right: 1%;
+  padding-top: 5%;
+}
