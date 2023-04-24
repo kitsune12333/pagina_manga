@@ -99,36 +99,7 @@ body {
   }
 
   
-  /* Sección de productos */
-  #productos {
-    margin-top: 20px;
-  }
-  
-  #productos h2 {
-    margin-bottom: 20px;
-  }
-  
-  #productos .producto {
-    margin-bottom: 20px;
-  }
-  
-  #productos .producto img {
-    max-width: 100%;
-  }
-  
-  #productos .producto h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  #productos .producto p {
-    margin-bottom: 10px;
-  }
-  
-  #productos .producto .btn {
-    margin-top: 10px;
-  }
+ 
   
   /* Pie de página */
   #pie {
