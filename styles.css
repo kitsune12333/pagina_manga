@@ -187,4 +187,11 @@ body {
   #parrafo-pagina{
     color: #ff8737;
     padding-left: 2%;
+    padding-top: 3%;
+  }
+
+  #parrafo-pagina2{
+    color: #ff8737;
+    margin-right: 50% ;
+    padding-right: 2%;
   }
