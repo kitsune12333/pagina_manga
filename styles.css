@@ -147,3 +147,51 @@ body {
     }
   }
   
+  /* formulario-------------------------------- */
+
+  #contenedor_formulario{
+    background-color: #0c0568c5;
+    width: 800px;
+  height: 400px;
+    padding-top: 1%;
+    border-bottom-right-radius: 20%;
+    cursor: cell;
+    position: relative;
+  }
+  
+  #texto_formulario{
+    padding-left: 3%;
+    padding-right: 3%;
+    
+  }
+
+  #idh3{
+    color: aqua;
+    padding-top: 1%;
+    text-shadow: 2px 2px 5px rgba(243, 45, 10, 0.705);
+  }
+
+  #idh5{
+    padding-top: 1%;
+    color: #ccc;
+  }
+
+  #contenedor-tamaño{
+    padding-top: 1%;
+  }
+
+  #logog{
+    padding-right: 4%;
+  }
+
+  #parrafo-pagina{
+    color: #ff8737;
+    padding-left: 2%;
+    padding-top: 3%;
+  }
+
+  #parrafo-pagina2{
+    color: #ff8737;
+    margin-right: 50% ;
+    padding-right: 2%;
+  }
