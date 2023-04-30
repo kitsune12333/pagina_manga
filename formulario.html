@@ -34,9 +34,6 @@
         <li class="nav-item">
           <a class="nav-link" href="formulario.html">Contacto</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="carrito.html">Carrito</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -44,15 +41,15 @@
   <div id="texto_formulario">
     <h1 class="text-warning">FORMULARIO DE DUDAS</h1>
     <h3 id="idh3" class="text-center">¡Bienvenido a Tsudonku!</h3>
-    <h5 id="idh5" class="text-justify">Nos encanta que estés interesado/a en nuestros mangas. Si tienes alguna duda o consulta,
+    <h5 id="idh5" class="text-justify">Nos encanta que estés interesado/a en nuestros mangas. Si tienes alguna duda o
+      consulta,
       no dudes en escribirnos utilizando el siguiente formulario. Estamos aquí para ayudarte en todo lo que necesites y
       brindarte una experiencia de compra excepcional. Nuestro equipo de atención al cliente se esfuerza por responder a
       todas las preguntas lo más rápido posible, así que no dudes en contactarnos en cualquier momento. ¡Gracias por
       elegir Tsudonku para tus compras de manga!</h5>
   </div>
   <div id="contenedor-tamaño">
-    <section id="contenedor_formulario" class="container">
-
+    <div id="contenedor_formulario" class="container">
       <form class="col-md-4-center">
         <div class="form-group">
           <label for="inputDireccion">Correo</label>
@@ -100,21 +97,48 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
-    </section>
+    </div>
   </div>
   <!-- Pie de página -->
-  <footer id="pie">
-    <div class="container">
+  <footer class="bg-dark text-light">
+    <div class="container py-4">
       <div class="row">
-        <div class="col-md-12">
-          <p class="text-center">
-            Síguenos en redes sociales:
-            <a href="#"><i class="fab fa-facebook fa-2x ml-3"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x ml-3"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x ml-3"></i></a>
-          </p>
+        <div class="col-md-4">
+          <p class="text-center" id="final2">Próxima tienda de mangas</p>
+          <p class="text-center"><i class="fa fa-map-marker"></i>Nos ubicamos en Portugal 667, wanoKuni</p>
+          <p class="text-center"><i class="fa fa-envelope"></i> Email: TsundokuStore@gmail.com</p>
+          <p class="text-center"><i class="fa fa-phone"></i> Fono: +56 9 3310 3456</p>
+          <p class="text-center"><img id="logoFinal" src="img/tsudonkuLogo.png" alt=""></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-center">Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li>
+              <p class="text-center"><a href="index.html"><i class="fa fa-facebook"></i> Facebook</a></p>
+            </li>
+            <li>
+              <p class="text-center"><a href="index.html"><i class="fa fa-twitter"></i> Twitter</a></p>
+            </li>
+            <li>
+              <p class="text-center"><a href="index.html"><i class="fa fa-instagram"></i> Instagram</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-center">NOTICIAS</h5>
+          <p class="text-center">Suscríbete a nuestro boletín para recibir noticias y promociones.</p>
+          <form>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Correo electrónico">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Suscribirse</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
+      <hr>
+      <p class="text-center">© 2023 TsundokuStore. Todos los derechos reservados.</p>
     </div>
   </footer>
   <!-- Enlaces a los archivos JavaScript de Bootstrap -->

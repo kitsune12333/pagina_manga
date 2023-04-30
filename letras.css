@@ -1,7 +1,7 @@
 .text-container{
   max-width: 50%;
   
-  margin-right: -50;
+  margin-right: 0;
 }
 #CarruselMenu .text-container {
   position: absolute;
@@ -60,7 +60,7 @@ h1{
   background-color: rgb(43, 0, 255, 0.136);
   color: #ff8737;
   padding-right: 2%;
-  margin-right: -50;
+  margin-right: 0;
   padding-top: 3%;
 }
 
@@ -68,7 +68,7 @@ h1{
   background-color: rgb(43, 0, 255, 0.136);
   color: #ff8737;
   padding-right: 2%;
-  margin-right: -50;
+  margin-right: 0;
   padding-top: 3%;
 }
 
